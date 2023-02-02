@@ -1,53 +1,27 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./public/3-bottles.png": {
+    "(app-client)/./app/page.js": {
       "": {
-        "id": "(sc_client)/./public/3-bottles.png",
+        "id": "(sc_client)/./app/page.js",
         "name": "",
         "chunks": [
-          "app/alpileansale2/page:app/alpileansale2/page"
+          "app/page:app/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./public/3-bottles.png",
+        "id": "(sc_client)/./app/page.js",
         "name": "*",
         "chunks": [
-          "app/alpileansale2/page:app/alpileansale2/page"
+          "app/page:app/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./public/3-bottles.png",
+        "id": "(sc_client)/./app/page.js",
         "name": "default",
         "chunks": [
-          "app/alpileansale2/page:app/alpileansale2/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/alpileansale2/page.js": {
-      "": {
-        "id": "(sc_client)/./app/alpileansale2/page.js",
-        "name": "",
-        "chunks": [
-          "app/alpileansale2/page:app/alpileansale2/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/alpileansale2/page.js",
-        "name": "*",
-        "chunks": [
-          "app/alpileansale2/page:app/alpileansale2/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/alpileansale2/page.js",
-        "name": "default",
-        "chunks": [
-          "app/alpileansale2/page:app/alpileansale2/page"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -155,6 +129,84 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./public/1-day-detox-cover.jpg": {
+      "": {
+        "id": "(sc_client)/./public/1-day-detox-cover.jpg",
+        "name": "",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/1-day-detox-cover.jpg",
+        "name": "*",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/1-day-detox-cover.jpg",
+        "name": "default",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/3-bottles.png": {
+      "": {
+        "id": "(sc_client)/./public/3-bottles.png",
+        "name": "",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/3-bottles.png",
+        "name": "*",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/3-bottles.png",
+        "name": "default",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/alpileansale2/page.js": {
+      "": {
+        "id": "(sc_client)/./app/alpileansale2/page.js",
+        "name": "",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/alpileansale2/page.js",
+        "name": "*",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/alpileansale2/page.js",
+        "name": "default",
+        "chunks": [
+          "app/alpileansale2/page:app/alpileansale2/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -163,54 +215,28 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_app_globals_css.css"
     ]
   },
-  "/Users/yogevzipori/Desktop/campaign1/alpileanpromo/public/3-bottles.png": {
+  "/Users/yogevzipori/Desktop/campaign1/alpileanpromo/app/page.js": {
     "": {
-      "id": "(app-client)/./public/3-bottles.png",
+      "id": "(app-client)/./app/page.js",
       "name": "",
       "chunks": [
-        "app/alpileansale2/page:app/alpileansale2/page"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/3-bottles.png",
+      "id": "(app-client)/./app/page.js",
       "name": "*",
       "chunks": [
-        "app/alpileansale2/page:app/alpileansale2/page"
+        "app/page:app/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/3-bottles.png",
+      "id": "(app-client)/./app/page.js",
       "name": "default",
       "chunks": [
-        "app/alpileansale2/page:app/alpileansale2/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/yogevzipori/Desktop/campaign1/alpileanpromo/app/alpileansale2/page.js": {
-    "": {
-      "id": "(app-client)/./app/alpileansale2/page.js",
-      "name": "",
-      "chunks": [
-        "app/alpileansale2/page:app/alpileansale2/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/alpileansale2/page.js",
-      "name": "*",
-      "chunks": [
-        "app/alpileansale2/page:app/alpileansale2/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/alpileansale2/page.js",
-      "name": "default",
-      "chunks": [
-        "app/alpileansale2/page:app/alpileansale2/page"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -419,6 +445,84 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/yogevzipori/Desktop/campaign1/alpileanpromo/public/1-day-detox-cover.jpg": {
+    "": {
+      "id": "(app-client)/./public/1-day-detox-cover.jpg",
+      "name": "",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/1-day-detox-cover.jpg",
+      "name": "*",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/1-day-detox-cover.jpg",
+      "name": "default",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/yogevzipori/Desktop/campaign1/alpileanpromo/public/3-bottles.png": {
+    "": {
+      "id": "(app-client)/./public/3-bottles.png",
+      "name": "",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/3-bottles.png",
+      "name": "*",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/3-bottles.png",
+      "name": "default",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/yogevzipori/Desktop/campaign1/alpileanpromo/app/alpileansale2/page.js": {
+    "": {
+      "id": "(app-client)/./app/alpileansale2/page.js",
+      "name": "",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/alpileansale2/page.js",
+      "name": "*",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/alpileansale2/page.js",
+      "name": "default",
+      "chunks": [
+        "app/alpileansale2/page:app/alpileansale2/page"
       ],
       "async": false
     }

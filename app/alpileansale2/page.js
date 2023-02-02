@@ -6,6 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Top from "../top";
 import Image from "next/image";
 import ThreeBottles from "/public/3-bottles.png";
+import Detox from "/public/1-day-detox-cover.jpg";
 
 export default function Page2() {
   return (
@@ -15,18 +16,36 @@ export default function Page2() {
 
         <div className=" bg-white">
           <div className="text-center ">
-            <h1 className="text-2xl font-semibold tracking-tight text-[#0f766e] sm:text-4xl mx-auto max-w-2xl py-24 sm:py-28 lg:py-32">
+            <h1 className="text-2xl font-semibold tracking-tight text-[#0f766e] sm:text-4xl mx-auto max-w-2xl py-8 sm:py-12 lg:py-12">
             Alpilean is made in the USA at an FDA-approved, GMP-certified facility.
-              <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">
               Say goodbye to bland and ineffective weight loss supplements and hello to a smarter, safer solution.          </p>
             </h1>
-            <p className="mt-4 text-lg leading-8 text-slate-900 mx-auto  max-w-5xl px-10 lg:px-10">
+
+<div>
+
+<div className="relative px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl py-8 sm:py-4 lg:py-12 ">
+              <div className=" sm:mb-8 sm:flex sm:justify-center">
+          <Image 
+           src={Detox}
+            width={400}
+             height={400}
+              alt="Detox" 
+             />  
+         </div>
+         </div>
+         </div>
+
+</div>
+
+            <p className="mt-4 text-base sm:text-lg leading-8 text-slate-900 mx-auto  max-w-5xl px-10 lg:px-8">
               Unleash the power of nature with our 6 key natural
               ingredients, each chosen for their fat-burning properties. From
               drumstick tree leaf (moringa), known for boosting your metabolism,
               to turmeric root, with its anti-inflammatory properties, to ginger
               root, that ramps up your inner body temperature, Alpilean has got
-              you covered. And let's not forget about African mango seed, rich
+              you covered. <br /> And let's not forget about African mango seed, rich
               in fiber and antioxidants, citrus bioflavonoids, for their
               fat-burning benefits, and golden algae (fucoxanthin), that
               supercharges your metabolism. 
