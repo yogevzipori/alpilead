@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Top from "../top";
+import Image from "next/image";
+import ThreeBottles from "/public/3-bottles.png";
 
 export default function Page2() {
   return (
@@ -18,13 +20,8 @@ export default function Page2() {
               <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Say goodbye to bland and ineffective weight loss supplements and hello to a smarter, safer solution.          </p>
             </h1>
-           
-
-    
-            <p className="mt- text-lg leading-8 text-gray-600">
-              Unleash the power of nature and transform your weight loss journey
-              with Alpilean! Say goodbye to bland, unproven supplements and
-              hello to a dynamic solution that's packed with 6 key natural
+            <p className="mt-4 text-lg leading-8 text-slate-900 mx-auto  max-w-5xl px-10 lg:px-10">
+              Unleash the power of nature with our 6 key natural
               ingredients, each chosen for their fat-burning properties. From
               drumstick tree leaf (moringa), known for boosting your metabolism,
               to turmeric root, with its anti-inflammatory properties, to ginger
@@ -32,11 +29,7 @@ export default function Page2() {
               you covered. And let's not forget about African mango seed, rich
               in fiber and antioxidants, citrus bioflavonoids, for their
               fat-burning benefits, and golden algae (fucoxanthin), that
-              supercharges your metabolism. With Alpilean, you're getting a
-              formula that's backed by science and made with the highest quality
-              natural ingredients sourced from trusted sources. So why settle
-              for less when you can have the best? Embrace a new standard in
-              weight loss and join the Alpilean revolution today!
+              supercharges your metabolism. 
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -54,8 +47,9 @@ export default function Page2() {
             </div>
           </div>
       </div>
+
       <div className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-2xl font-semibold leading-8 tracking-tight text-[#10b981]">
               Limited Supply
@@ -72,8 +66,24 @@ export default function Page2() {
               sourced from trusted sources.
             </p>
           </div>
+         
+        
           <div className="relative px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div className="mx-auto max-w-2xl py-8 sm:py-4 lg:py-12 ">
+              <div className=" sm:mb-8 sm:flex sm:justify-center">
+          <Image 
+           src={ThreeBottles}
+            width={400}
+             height={400}
+              alt="3-bottles" 
+             />  
+         </div>
+         </div>
+         </div>
+
+
+          {/* <div className="relative px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"> */}
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative rounded-full py-1 px-3 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   Take control of your health and unleash the power of nature
@@ -86,8 +96,7 @@ export default function Page2() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
       <Top />
     </div>
      </div>
