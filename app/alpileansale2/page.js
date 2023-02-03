@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Top from "../top";
 import Image from "next/image";
 import ThreeBottles from "/public/3-bottles.png";
-import Gifts from "/public/Gifts2.jpg";
+import Gifts from "/public/gifts2.jpg";
 import FullProduct from "/public/full-product.png"
 import Pricing from "../pricing";
 
