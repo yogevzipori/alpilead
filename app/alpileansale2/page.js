@@ -9,6 +9,7 @@ import ThreeBottles from "/public/3-bottles.png";
 import Gifts from "/public/gifts2.jpg";
 import FullProduct from "/public/full-product.png"
 import Pricing from "../pricing";
+import Freegifts from "../freegifts";
 
 export default function Page2() {
   return (
@@ -20,32 +21,28 @@ export default function Page2() {
           <div className="text-center ">
             <h1 className="text-2xl font-semibold tracking-tight text-[#0f766e] sm:text-4xl mx-auto max-w-2xl py-8 sm:py-12 lg:py-12">
             Alpilean is made in the USA at an FDA-approved, GMP-certified facility.
-              <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+              <p className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-2xl">
               Say goodbye to bland and ineffective weight loss supplements and hello to a smarter, safer solution.          </p>
             </h1>
 
+</div>
 <div>
+</div>
 
 <div className="relative px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl py-8 sm:py-4 lg:py-12 ">
-              <div className=" sm:mb-8 sm:flex sm:justify-center">
+            <div className="mx-auto max-w-2xl py-4 sm:py-4 lg:py-8 ">
+              <div className=" sm:mb-4 sm:flex sm:justify-center">
           <Image 
-           src={Gifts}
-            width={700}
-             height={500}
-              alt="Detox" 
+           src={FullProduct}
+            width={400}
+             height={400}
+              alt="bottles" 
              />  
          </div>
          </div>
          </div>
 
-
-<Pricing />
-
-
-</div>
-
-            <p className="mt-4 text-base sm:text-lg leading-8 text-slate-900 mx-auto  max-w-5xl px-10 lg:px-8">
+            <p className="mt-4 text-base tracking-wide font-medium sm:text-lg leading-8 text-slate-800 mx-auto  max-w-5xl px-10 lg:px-8">
               Unleash the power of nature with our 6 key natural
               ingredients, each chosen for their fat-burning properties. From
               drumstick tree leaf (moringa), known for boosting your metabolism,
@@ -73,17 +70,17 @@ export default function Page2() {
           </div>
       </div>
 
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white py-12 sm:py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-2xl font-semibold leading-8 tracking-tight text-[#10b981]">
               Limited Supply
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
               Say hello to a smarter and safer approach to weight loss with
               Alpilean.{" "}
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-slate-800">
               Alpilean is also manufactured in an FDA-approved and GMP-certified
               facility in the United States of America using the latest
               technology and equipment to ensure the highest standards. This
@@ -94,8 +91,8 @@ export default function Page2() {
          
         
           <div className="relative px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl py-8 sm:py-4 lg:py-12 ">
-              <div className=" sm:mb-8 sm:flex sm:justify-center">
+            <div className="mx-auto max-w-2xl py-4 sm:py-4 lg:py-8 ">
+              <div className=" sm:mb-4 sm:flex sm:justify-center">
           <Image 
            src={ThreeBottles}
             width={400}
@@ -106,41 +103,12 @@ export default function Page2() {
          </div>
          </div>
 
-
-          {/* <div className="relative px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56"> */}
-              <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-                <div className="relative rounded-full py-1 px-3 text-base leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Take control of your health and unleash the power of nature
-                  with Alpilean.{" "}
-                  <a href="#" className="font-semibold text-[#10b981]">
-                    <span className="absolute inset-0" aria-hidden="true" />
-                    Orded now <span aria-hidden="true">&rarr;</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-<div>
-<div className="relative px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl py-8 sm:py-4 lg:py-12 ">
-              <div className=" sm:mb-8 sm:flex sm:justify-center">
-          <Image 
-           src={FullProduct}
-            width={500}
-             height={400}
-              alt="Alpilean" 
-             />  
-         </div>
-         </div>
-         </div>
+</div>
 </div>
 
-
+<Freegifts />
 
       <Top />
     </div>
-     </div>
   )
 }

@@ -3,12 +3,11 @@
 
 const navigation = {
     main: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
-      // { name: 'Accessibility', href: '#' },
-      // { name: 'Partners', href: '#' },
+      { name: 'FAQ', href: '#' },
+      { name: 'Ingredients', href: '#' },
+      { name: 'About Alpilean', href: '#' },
+      { name: 'Privacy', href: '#' },
+      { name: 'Terms', href: '#' },
     ],
     social: [
     //   {
@@ -92,16 +91,16 @@ const navigation = {
               </div>
             ))}
           </nav>
-          <div className="mt-10 flex justify-center space-x-10">
+          {/* <div className="mt-10 flex justify-center space-x-10">
             {navigation.social.map((item) => (
               <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
-          </div>
-          <p className="mt-10 text-center text-xs leading-5 text-gray-400">
-            &copy; 2023 LeadProMedia LLC. All rights reserved.
+          </div> */}
+          <p className="mt-28 text-center text-xs leading-5 text-gray-400">
+            &copy; All rights reserved. 2023 LeadProMedia LLC.
           </p>
         </div>
       </footer>
