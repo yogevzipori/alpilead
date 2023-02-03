@@ -6,7 +6,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Top from "../top";
 import Image from "next/image";
 import ThreeBottles from "/public/3-bottles.png";
-import Detox from "/public/1-day-detox-cover.jpg";
+import Gifts from "/public/Gifts2.jpg";
+import FullProduct from "/public/full-product.png"
+import Pricing from "../pricing";
 
 export default function Page2() {
   return (
@@ -28,14 +30,18 @@ export default function Page2() {
             <div className="mx-auto max-w-2xl py-8 sm:py-4 lg:py-12 ">
               <div className=" sm:mb-8 sm:flex sm:justify-center">
           <Image 
-           src={Detox}
-            width={400}
-             height={400}
+           src={Gifts}
+            width={700}
+             height={500}
               alt="Detox" 
              />  
          </div>
          </div>
          </div>
+
+
+<Pricing />
+
 
 </div>
 
@@ -115,6 +121,23 @@ export default function Page2() {
               </div>
             </div>
           </div>
+
+<div>
+<div className="relative px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl py-8 sm:py-4 lg:py-12 ">
+              <div className=" sm:mb-8 sm:flex sm:justify-center">
+          <Image 
+           src={FullProduct}
+            width={500}
+             height={400}
+              alt="Alpilean" 
+             />  
+         </div>
+         </div>
+         </div>
+</div>
+
+
 
       <Top />
     </div>
