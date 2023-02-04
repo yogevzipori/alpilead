@@ -3,11 +3,10 @@
 
 const navigation = {
     main: [
-      { name: 'FAQ', href: '#' },
-      { name: 'Ingredients', href: '#' },
-      { name: 'About Alpilean', href: '#' },
-      { name: 'Privacy', href: '#' },
-      { name: 'Terms', href: '#' },
+      { name: 'FAQ', href: 'https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi' },
+      { name: 'Ingredients', href: 'https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi' },
+      { name: 'Privacy', href: 'https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi' },
+      { name: 'Terms', href: 'https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi' },
     ],
     social: [
     //   {

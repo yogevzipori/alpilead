@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 export default function Top() {
   return (
     <div>
@@ -7,10 +9,10 @@ export default function Top() {
           <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8 mt-4">
             <div className="pr-16 sm:px-16 sm:text-center ">
               <p className="font-medium text-[#f8fafc] ">
-                <span className="md:hidden">Alpilean is FDA-approved and manufactured in United States!</span>
-                <span className="hidden md:inline">Alpilean is manufactured in an FDA-approved and GMP-certified facility in the United States</span>
+                <span className="md:hidden">60-Day Money Back Guarantee. Yes 60 days!</span>
+                <span className="hidden md:inline">Alpilean is manufactured in an FDA-approved and GMP-certified facility in the United States with a 60-Day Money Back Guarantee</span>
                 <span className="block sm:ml-2 sm:inline-block">
-                  <a href="#" className="font-bold text-white underline hover:text-[#10b981] animate-pulse">
+                  <a href={"https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi"} className="font-bold text-white underline hover:text-[#10b981] animate-pulse">
                     Order now
                     <span aria-hidden="true"> &rarr;</span>
                   </a>
