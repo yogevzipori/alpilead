@@ -1,3 +1,4 @@
+
 export default function Head() {
   return (
     <>
@@ -5,6 +6,6 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="Supplements" content="Silm Supplements Sale" />
       <link rel="icon" href="/1-bottle.png" />
-    </>
+      </>
   )
 }
