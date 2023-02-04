@@ -8,7 +8,7 @@ export default function Freegifts() {
 <div className=" bg-white">
           <div className="text-center ">
             <h1 className="animate-bounce mt-8 text-xl font-bold tracking-tight text-[#10b981] sm:text-2xl">
-            Febuary Special
+            February Special
             Order today a 90-day or 180-day supply and get 2 FREE gifts! 
             While supplies last!
             </h1>
