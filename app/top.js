@@ -13,7 +13,7 @@ export default function Top() {
                 <span className="hidden md:inline">Alpilean is manufactured in an FDA-approved and GMP-certified facility in the United States with a 60-Day Money Back Guarantee</span>
                 <span className="block sm:ml-2 sm:inline-block">
                   <a href={"https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi"} className="font-bold text-white underline hover:text-[#10b981] animate-pulse">
-                    Order now
+                    See current special offer
                     <span aria-hidden="true"> &rarr;</span>
                   </a>
                 </span>
