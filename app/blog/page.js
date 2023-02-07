@@ -7,7 +7,7 @@ const Alpilean = (
     href="https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-indigo-900"
+    className="text-indigo-800 hover:text-indigo-500"
   >
     Alpilean
   </Link>
@@ -152,7 +152,7 @@ export default function Blog1() {
     href="https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-indigo-900"
+    className="text-indigo-800 hover:text-indigo-500"
   >
     Click Here
   </Link>
