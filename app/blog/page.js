@@ -92,10 +92,10 @@ export default function Blog1() {
               <p>
                 Have you been struggling to lose weight? Despite counting
                 calories and hitting the gym? I know how you feel! I was there
-                too, but that was before I discovered Alpilean. Balancing a
+                too, but that was before I discovered {Alpilean}. Balancing a
                 demanding lifestyle with personal health and wellness can be a
                 challenge, especially when it comes to weight loss. That's why
-                many people turn to natural supplements like Alpilean. Alpilean
+                many people turn to natural supplements like {Alpilean}. {Alpilean}
                 is a natural fat-burning supplement made in an FDA-approved and
                 GMP-certified facility in the United States. It contains a
                 proprietary blend of six exotic ingredients, including drumstick
@@ -111,7 +111,7 @@ export default function Blog1() {
                 that's made in the USA with the highest standards. I was
                 skeptical at first, but after doing my research and reading
                 While some people have reported experiencing increased energy
-                and a revved-up metabolism after taking Alpilean as directed,
+                and a revved-up metabolism after taking {Alpilean} as directed,
                 there is no scientific proof that the supplement causes weight
                 loss and it's important to remember that weight loss requires a
                 combination of diet and exercise, not just taking a supplement..
@@ -129,10 +129,10 @@ export default function Blog1() {
                 energy throughout the day. The weight started to melt away, and
                 I was amazed by how fast and easy it was. And even more
                 surprising? I didn't have to make any major changes to my
-                lifestyle. If you're interested in learning more about Alpilean
+                lifestyle. If you're interested in learning more about {Alpilean}
                 and whether it might be right for you, sign up for our free
                 information guide. Our guide provides in-depth information on
-                the ingredients, usage, and potential benefits of Alpilean, as
+                the ingredients, usage, and potential benefits of {Alpilean}, as
                 well as advice on how to make informed decisions about
                 supplements. However, it's important to always consult with a
                 healthcare professional before starting any new supplement
@@ -144,11 +144,11 @@ export default function Blog1() {
 
               <p>
                 Ladies, if you're over 35 and ready to take control of your
-                weight loss journey, I highly recommend giving Alpilean a try.
+                weight loss journey, I highly recommend giving {Alpilean} a try.
                 With a 60-day money-back guarantee, you have nothing to lose.
                 With 10M+ satisfied users and 60-day money back promo they have
                 right now, you can trust that this product works! Order your
-                bottle of Alpilean today, and get ready to transform your
+                bottle of {Alpilean} today, and get ready to transform your
                 journey! You'll be amazed by the , just like I was!
               </p>
               <h3>
