@@ -4,7 +4,7 @@
 const navigation = {
     main: [
       { name: 'FAQ', href: 'https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi' },
-      { name: 'Ingredients', href: 'https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi' },
+      { name: 'Disclaimer', href: '/Disclaimer' },
       { name: 'Privacy', href: 'https://www.leadpromediallc.com/privacy' },
       { name: 'Terms', href: 'https://www.leadpromediallc.com/terms' },
     ],

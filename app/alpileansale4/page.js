@@ -132,8 +132,7 @@ Each of our key ingredients has been chosen for their unique fat-burning propert
 </div>
 </div>
 </div>
-<div className="my-10">
-<div className="mx-auto max-w-7xl py-10 px-8 sm:py-14 lg:px-6 lg:py-18">
+<div className="mx-auto my-10 max-w-7xl py-10 px-8 sm:py-14 lg:px-6 lg:py-18">
 
 <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
 Say hello to a smarter and safer approach to weight loss with Alpilean. Made in the USA using the latest technology and equipment, this formula is manufactured in an FDA-approved and GMP-certified facility, ensuring the highest standards in quality and safety. Alpilean's unique blend of natural ingredients, including drumstick tree leaf, turmeric root, ginger root, African mango seed, citrus bioflavonoids, and golden algae, are sourced from trusted sources, ensuring you get only the best for your weight loss journey. Take control of your health and unleash the power of nature with Alpilean.          </p>
@@ -153,7 +152,6 @@ Say hello to a smarter and safer approach to weight loss with Alpilean. Made in 
 
 </div>
 <Top/>
-</div>
 </div>
 </div>
   )
