@@ -90,18 +90,19 @@ export default function Blog1() {
           </div>
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
-              <p className="text-lg text-gray-500">
+              <p className="text-lg text-slate-900">
                 My Weight Loss Journey with {Alpilean} - The All-Natural
-                Fat-Burning solution that works and is made in an FDA-approved and GMP-certified facility in the United States. Ladies, have you been
-                struggling to lose weight, despite counting every calorie and
-                hitting the gym every day? I know how you feel! I was there too,
-                but that was before I discovered Alpilean. This amazing product
-                has completely transformed my weight loss journey and I want to
-                share my story with you!
+                Fat-Burning solution that works and is made in an FDA-approved and GMP-certified facility in the United States. 
               </p>
             </div>
             <div className="prose prose-indigo mx-auto mt-5 text-slate-600 lg:col-start-1 lg:row-start-1 lg:max-w-none">
               <p>
+                Ladies, have you been
+                struggling to lose weight, despite counting every calorie and
+                hitting the gym every day? I know how you feel! I was there too,
+                but that was before I discovered Alpilean. This amazing product
+                has completely transformed my weight loss journey and I want to
+                share my story with you! <br/>
                 I'm a busy mom of three, and with a demanding career, it's hard
                 to find the time to prioritize my own health. I was tired of
                 yo-yo dieting and feeling frustrated with my lack of progress,
@@ -141,12 +142,12 @@ export default function Blog1() {
                 Ladies, if you're over 40 and ready to take control of your
                 weight loss journey, I highly recommend giving Alpilean a try.
                 With a 60-day money-back guarantee, you have nothing to lose.
-                And with 10M+ satisfied users, you can trust that this product
+                With 10M+ satisfied users, you can trust that this product
                 works! Order your bottle of {Alpilean} today, and get ready to
                 transform your weight loss journey! You'll be amazed by the
                 results, just like I was!
               </p>
-              <h3>Link to Alpilean
+              <h3>Link to Alpilean <br/>
               <Link
     href="https://948ba5s7okug9xa0zds8iwwkfm.hop.clickbank.net/?tid=lpmalpi"
     target="_blank"
