@@ -149,7 +149,7 @@ export default function Blog1() {
                 With 10M+ satisfied users and 60-day money back promo they have
                 right now, you can trust that this product works! Order your
                 bottle of {Alpilean} today, and get ready to transform your
-                journey! You'll be amazed by the , just like I was!
+                journey! You'll be amazed, just like I was!
               </p>
               <h3>
                 Link to Alpilean <br />
