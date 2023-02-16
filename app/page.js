@@ -1,5 +1,5 @@
-import Top from "../top"
-import Noworlearn from "../noworlearn"
+import Top from "/top"
+import Noworlearn from "/noworlearn"
 import Image from "next/image"
 import ThreeBottles from "/public/3-bottles.png"
 import Logo from "/public/logo.png"
