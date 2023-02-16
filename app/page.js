@@ -1,52 +1,67 @@
-"use client"
+import Top from "../top"
+import Noworlearn from "../noworlearn"
+import Image from "next/image"
+import ThreeBottles from "/public/3-bottles.png"
+import Logo from "/public/logo.png"
+import Approved from "/public/approved.png"
 
-import { XMarkIcon } from '@heroicons/react/24/outline'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import Info from './info'
-import Top from './top'
-
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default function page() {
   return (
-  
-    
-<div>
-<Top />
-<div className="bg-white">
-      <div className="py-24 px-6 sm:px-6 sm:py-32 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-            Boost your weight loss process.
-            <br />
-            Start using Alpilean today.
-          </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-slate-700">
-          Transform Your Weight Loss Journey with Alpilean!
-Say goodbye to bland, unproven weight loss supplements and hello to a dynamic solution that's powered by nature! Alpilean is the all-natural fat-burning formula that will ignite your metabolism and help you see results like never before. Alpilean is manufactured in an FDA-approved and GMP-certified facility in the United States of America using the latest technology and equipment.
+    <>
+    <Top/>
+    <div className="relative px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl py-4 sm:py-4 lg:py-4 ">
+              <div className=" sm:mb-4 sm:flex sm:justify-center">
+                <Image
+                  src={Logo}
+                  width={500}
+                  height={500}
+                  alt="3-bottles"
+                />
+              </div>
+            </div>
+          </div>
+
+<div className="bg-white py-8 sm:py-12">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:text-center">
+          <h2 className="text-3xl font-semibold leading-8 tracking-tight text-[#10b981]">60-Day Money Back Guarantee! </h2>
+          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Ready to lose weight the natural way? The Alpilean way.         </p>
+          <p className="mt-6 text-xl leading-8 text-slate-800">
+          Alpilean is here to help! Our all-natural formula, made in the USA with the highest standards, will boost your metabolism and drive weight loss results. Say goodbye to synthetic solutions and hello to a natural, ingredient-driven approach. Try Alpilean today!
           </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-md bg-[#0f766e] px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-[#10b981] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Order Now
-            </a>
-            <a href="#" className="text-base font-semibold leading-7 text-gray-900">
-              Learn more <span aria-hidden="true">→</span>
-            </a>
+          <div className="relative px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl py-2 sm:py-2 lg:py-2 ">
+              <div className=" sm:mb-2 sm:flex sm:justify-center">
+                <Image
+                  src={Approved}
+                  width={500}
+                  height={500}
+                  alt="Approved"
+                />
+              </div>
+            </div>
+          </div>
+          
+          <Noworlearn />
+          <div className="relative px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl py-4 sm:py-4 lg:py-8 ">
+              <div className=" sm:mb-4 sm:flex sm:justify-center">
+                <Image
+                  src={ThreeBottles}
+                  width={400}
+                  height={400}
+                  alt="3-bottles"
+                />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </div>
-    <div>
-      </div>
-  <Info />
+
 <Top/>
-    </div>
- 
-
-
+</div>
+</>
   )
 }
