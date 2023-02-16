@@ -1,5 +1,7 @@
 import "./globals.css";
 import Foot from './foot'
+import GoogleAdsense from './googleAdsense'
+
 
 
 
@@ -9,7 +11,7 @@ export default function RootLayout({ children }) {
       
       <head />
       <body>
-      <enableGoogleAdsense />
+      <GoogleAdsense />
         
         {children}</body>
 
