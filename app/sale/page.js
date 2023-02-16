@@ -5,7 +5,7 @@ import ThreeBottles from "/public/3-bottles.png"
 import Logo from "/public/logo.png"
 import Approved from "/public/approved.png"
 
-export default function page() {
+export default function salePage() {
   return (
     <>
     <Top/>
