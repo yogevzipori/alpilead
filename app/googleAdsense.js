@@ -1,4 +1,5 @@
-export function GoogleAdsense() {
+export default function googleAdsense() {
+  return
   const head = document.getElementsByTagName("head")[0];
   const scriptElement = document.createElement(`script`);
   scriptElement.type = `text/javascript`;
