@@ -8,10 +8,12 @@ import GoogleAdsense from './googleAdsense'
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
-      <head />
+      <head>
+
+<GoogleAdsense />
+</head>
+     
       <body>
-      <GoogleAdsense />
         
         {children}</body>
 
